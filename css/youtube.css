@@ -1,0 +1,133 @@
+.top{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px 8px 10px;
+    font-size: 18px;
+    position: fixed;
+    top: 0;
+    left: 20px;
+    background-color: #fff;
+}
+.top-left{
+    display: inline-block;
+    width: 136px;
+    height: 40px;
+    vertical-align: center;
+    cursor: pointer;
+}
+.top-left img{
+    height: 26px;
+    padding-left: 32px;
+    cursor: pointer;
+}
+.top-center{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+/* .top-center .fas fa-microphone{
+    margin-left: 30px;
+} */
+.top-center input{
+    width: 480px;
+    height: 32px;
+    border: solid 1px #c8c8c8;
+    font-size: 15px;
+    padding-left: 8px;
+}
+.top-center button{
+    width: 62px;
+    height: 36px;
+    border: solid 1px #c8c8c8;
+    cursor: pointer;
+}
+.top-right{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.top-right i{
+    padding-right: 37px;
+}
+.top-right img{
+    border-radius: 25px;
+    width: 32px;
+}
+.top-btn{
+    margin-left: 68px;
+    width: 98%;
+    padding: 12px 0px;
+    text-align: center;
+    border-top:solid 1px #c8c8c8;
+    border-bottom:solid 1px #c8c8c8;
+    position:fixed;
+    top: 53px;
+    background-color: #fff;
+}
+.top-btn button{
+    border-radius: 45px;
+    border: 1px solid #c8c8c8;
+    padding: 6px 13px;
+    font-size: 14px;
+    margin-right: 2px;
+    cursor: pointer;
+}
+.top-btn button:hover{
+    background-color: #000;
+    color: #fff;
+}
+.left{
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: fixed;
+}
+.left i{
+    font-size: 20px;
+    padding: 5px 0px 10px 0px;
+    cursor: pointer;
+}
+.left p{
+    font-size: 10px;
+}
+section{
+    margin-left: 68px;
+}
+.list{
+    margin-left: 5%;
+    margin-top:82px;
+}
+.list-logo{
+    width: 296px;
+    height: 118px;
+    padding-top: 8px;
+}
+.list-logo .imgdiv{
+    width: 36px;
+    display: inline;
+}
+.list-logo img{
+    width: 36px;
+    height: 36px;
+    border-radius: 45px;
+}
+.list-logo p{
+    padding-left: 10px;
+    width: 250px;
+    height: 51.2px;
+    display: inline-block;
+    vertical-align: top;
+    margin:0px;
+}
+.list-logo #name{
+    padding-left: 46px;
+    font-size: 13px;
+    color: #666;
+}
+.listdiv{
+    display: inline-block;
+    padding-left: 12px;
+    width: 330px;
+}
