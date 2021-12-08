@@ -25,6 +25,7 @@
     display: flex;
     align-items: center;
     cursor: pointer;
+    position: relative;
 }
 /* .top-center .fas fa-microphone{
     margin-left: 30px;
@@ -41,6 +42,10 @@
     height: 36px;
     border: solid 1px #c8c8c8;
     cursor: pointer;
+}
+.micro {
+    position: absolute;
+    right: -5%;
 }
 .top-right{
     display: flex;
